@@ -1,3 +1,3 @@
-module WordFilter
-  VERSION = "0.0.6"
+module WordFilterVersion
+  VERSION = "0.0.7"
 end
