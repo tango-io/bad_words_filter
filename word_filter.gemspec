@@ -6,7 +6,7 @@ require 'word_filter/version'
 Gem::Specification.new do |spec|
   spec.name          = "word_filter"
   spec.version       = WordFilter::VERSION
-  spec.authors       = ["Huascar Oña"]
+  spec.authors       = ["Huascar Ona"]
   spec.email         = ["huascarking@hotmail.com"]
   spec.description   = %q{A bad word filter for the input text.}
   spec.summary       = %q{A word filter gem}
