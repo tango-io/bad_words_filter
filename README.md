@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+# Use example of the class
+# testFilter = WordFilter.new
+# testFilter.filterInit("lib/assets/dictionary.txt", "lib/assets/badwords.txt")
+# testFilter.filterLevel = WordFilter::SWAPPABLE_AND_REPEATED_VOWELS_INCLUDING_NONE
+# input = "I went to school and some beeeestard stole my lunch"
+# puts testFilter.filterString(input)
 
 ## Contributing
 
