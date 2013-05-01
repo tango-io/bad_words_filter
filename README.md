@@ -17,13 +17,14 @@ Or install it yourself as:
     $ gem install word_filter
 
 ## Usage
-
-# Use example of the class
-# testFilter = WordFilter.new
-# testFilter.filterInit("lib/assets/dictionary.txt", "lib/assets/badwords.txt")
-# testFilter.filterLevel = WordFilter::SWAPPABLE_AND_REPEATED_VOWELS_INCLUDING_NONE
-# input = "I went to school and some beeeestard stole my lunch"
-# puts testFilter.filterString(input)
+ This gem work with a dictionary list and a badwords list to be able to filter the bad words
+ 
+ Use example of the Gem
+ testFilter = WordFilter.new
+ testFilter.filterInit("lib/assets/dictionary.txt", "lib/assets/badwords.txt")
+ testFilter.filterLevel = WordFilter::SWAPPABLE_AND_REPEATED_VOWELS_INCLUDING_NONE
+ input = "I went to school and some beeeestard stole my lunch"
+ puts testFilter.filterString(input)
 
 ## Contributing
 
