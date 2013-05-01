@@ -1,7 +1,7 @@
 require "word_filter/version"
 
 module WordFilter
-  class WordFilter
+  class Filter
 
     @@emailRegex = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\\.[a-zA-Z]{2,4}/
     @@alphaNumericDigit = /(zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|\d)/; 
