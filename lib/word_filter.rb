@@ -22,7 +22,7 @@ module WordFilter
         @filterLevel = NONE
     end
 
-    attr_accessor :filterLevel
+    attr_accessor :filterLevel, :goodWords, :badWordsRegex
 
     def filterInit(dictionaryFile, badwordslist)
         @goodWords = loadDictionary(dictionaryFile)
